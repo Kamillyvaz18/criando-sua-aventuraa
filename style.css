@@ -1,0 +1,45 @@
+body {
+    background-color: mediumseagreen;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Use 100vh para ocupar toda a altura da tela */
+    margin: 0;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    border: none; /* Remove borda padrão */
+    padding: 10px 20px; /* Adiciona um pouco de espaçamento */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s; /* Suaviza a transição de cor */
+}
+
+button:hover {
+    background-color: darkorange; /* Muda a cor ao passar o mouse */
+}
+
+button:focus {
+    outline: 2px solid white; /* Destaque para acessibilidade ao focar */
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main{
+   text-align: center;
+   max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
